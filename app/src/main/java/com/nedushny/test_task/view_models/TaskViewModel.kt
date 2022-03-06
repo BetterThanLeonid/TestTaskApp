@@ -1,4 +1,4 @@
-package com.nedushny.test_task
+package com.nedushny.test_task.view_models
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -1,4 +1,4 @@
-package com.nedushny.test_task
+package com.nedushny.test_task.adapters
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.nedushny.test_task.R
 import com.nedushny.test_task.network.NetworkConstants
 
 class ImagesAdapter : RecyclerView.Adapter<ImagesAdapter.ViewHolder>() {

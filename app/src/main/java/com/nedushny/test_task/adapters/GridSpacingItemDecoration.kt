@@ -1,4 +1,4 @@
-package com.nedushny.test_task
+package com.nedushny.test_task.adapters
 
 import android.content.Context
 import android.graphics.Rect

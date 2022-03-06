@@ -10,25 +10,11 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.nedushny.test_task.GridSpacingItemDecoration
-import com.nedushny.test_task.ImagesAdapter
+import com.nedushny.test_task.adapters.GridSpacingItemDecoration
+import com.nedushny.test_task.adapters.ImagesAdapter
 import com.nedushny.test_task.R
-import com.nedushny.test_task.TaskViewModel
+import com.nedushny.test_task.view_models.TaskViewModel
 import java.io.IOException
-
-//    Приложение должно получать JSON-список ссылок на изображения с сервера по адресу
-//    http://dev-tasks.alef.im/task-m-001/list.php
-//
-//    и отображать их в виде таблицы следующим образом:
-//    1) все картинки отображаются квадратными.
-//    2) на телефонах две картинки в ряд, на планшетах три картинки в ряд.
-//
-//    Приложение должно
-//    — запускаться на Android начиная с версии 5.0
-//    — поддерживать портретную и альмбомную ориентацию
-//    — иметь любую иконку, отличную от иконки по умолчанию
-//    — при свайпе вниз контент должен обновляться
-//    — при клике на изображение оно должно открыться на весь экран.
 
 class MainActivity : AppCompatActivity() {
 
